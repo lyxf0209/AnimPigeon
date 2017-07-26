@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:apk="http://schemas.android.com/apk/res/android"
+    apk:layout_width="fill_parent"
+    apk:layout_height="fill_parent"
+    apk:background="#000000"
+    apk:orientation="vertical" >
+
+    <!-- Frame动画图片 -->
+
+    <ImageView
+        apk:id="@+id/ImgDance"
+        apk:layout_width="wrap_content"
+        apk:layout_height="wrap_content"
+
+        apk:background="@drawable/fly" />
+
+    <!-- 动画控制按钮 -->
+
+    <LinearLayout
+        apk:layout_width="fill_parent"
+        apk:layout_height="wrap_content"
+        apk:orientation="horizontal" >
+
+        <Button
+            apk:id="@+id/start"
+            apk:layout_width="wrap_content"
+            apk:layout_height="wrap_content"
+            apk:text="开始" />
+
+        <Button
+            apk:id="@+id/stop"
+            apk:layout_width="wrap_content"
+            apk:layout_height="wrap_content"
+            apk:text="结束" />
+    </LinearLayout>
+
+</LinearLayout>
