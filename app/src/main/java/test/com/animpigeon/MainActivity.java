@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 //    private void iv_setlocal(ImageView iv,int value) {
 //        iv.setPadding(iv.getPaddingLeft() + value, iv.getPaddingTop() + value,
 //                iv.getPaddingRight(), iv.getPaddingBottom());
-//        // 固定第一次动画结束后图片的位置
+//// 固定第一次动画结束后图片的位置
 //    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
